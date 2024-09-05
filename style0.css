@@ -1,0 +1,180 @@
+
+#logoUniversidad{
+    width: 400px;
+    height: 100px;
+    left: 200px;
+    position: relative;
+    top: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 200px;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: gray;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(68, 67, 67);
+}
+
+#resultado {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+#BuscarAlumno{
+    display: flex;
+    flex-direction: column;
+}
+
+#busquedaPornombre{
+    width: 90%;
+}
+
+#botonpromedioAlumno{
+    width: 100px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: gray;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#botonpromedioAlumno:hover{
+    background-color: rgb(68, 67, 67);
+}
+
+#botonesGrupos{
+    display: flex;
+    flex-direction: row;
+}
+
+#botongrupoA{
+    width: 100px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: gray;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+
+#botongrupoA:hover{
+    background-color: rgb(68, 67, 67);
+}
+
+
+#botongrupoB{
+    width: 100px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: gray;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+
+#botongrupoB:hover{
+    background-color: rgb(68, 67, 67);
+}
+
+#botongrupoC{
+    width: 100px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: gray;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+
+#botongrupoC:hover{
+    background-color: rgb(68, 67, 67);
+}
+
+/*.botonesDatos{
+    position: absolute;
+    top: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+.promedioAlumno{
+    font-size: 10px;
+}*/

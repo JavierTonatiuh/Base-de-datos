@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style0.css">
+    <title>Document</title>
+</head>
+<body>
+    
+        <div class="logo">
+        <img src="/images/LOGO UNIVERSIDAD PROYECTO.png" alt="logo universidad omega" id="logoUniversidad">
+        </div>
+
+
+        <div class="container">
+            <h1>Alta de Alumnos</h1>
+            <form id="alumnoForm">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" required>
+                <label for="apellidos">Apellidos</label>
+                <input type="text" id="apellidos" required>
+                <label for="edad">Edad</label>
+                <input type="number" id="edad" required>
+                <label for="curso">Curso</label>
+                <select name="curso" id="curso">
+                    <option id="selection" value="seleccion">Selecciona tu curso</option>
+                    <option id="masterAI" value="Master en AI">Master en AI</option>
+                    <option id="dip" value="Diplomado en gestion de datos">Diplomado en gestion de datos</option>
+                    <option id="masterCode" value="Master Code">Master Code</option>
+                </select>
+                <button type="submit">Agregar Alumno</button>
+            </form>
+            <div id="baseDatos">
+                <h2>Base de datos Alumnos</h2>
+                <ul id="listaAlumnos"></ul>
+            </div>
+            <div id="BuscarAlumno">
+                <h2>Buscar alumno por nombre</h2>
+                <input type="text" placeholder="Escriba nombre del alumno" id="busquedaPornombre">
+                <button type="submit" id="botonbusqueda" onclick="datosDealumnos()">Buscar Alumno</button>
+            </div>
+            <div id="ordenarPorgrupos">
+                <h2>Alumnos por grupo</h2>
+                <ul id="listaporGrupo"></ul>
+                <div id="botonesGrupos">
+                    <button id="botongrupoA" onclick="alumnosgrupoA()">Grupo A</button>
+                    <button id="botongrupoB" onclick="alumnosgrupoB()">Grupo B</button>
+                    <button id="botongrupoC" onclick="alumnosgrupoC()">Grupo C</button>
+                </div>
+                
+            </div>
+        </div>
+    
+        <!--<div class="botonesDatos">
+            <div>
+                <select name="buscar" id="buscar">
+                    <option value="buscarPor">Buscar Alumno por</option>
+                    <option value="buscarNombre" id="buscarNombre">Nombre</option>
+                    <option value="buscarApellido" id="buscarApellido">Apellido</option>
+                </select>
+                <button id="buscarNA" onclick="loginName()">ir</button>
+            </div>
+
+            <div class=" promedioAlumno">
+                <h1>Obtener promedio alumno</h1>
+                <input type="text" placeholder="Escriba el nombre del alumno">
+                <button id="promedioNA">ir</button>
+            </div>
+
+            <div class="promedioGrupo">
+                <select name="promedioGrupo" id="promedioGrupo">
+                    <option value="elegir">Obtener promedio del grupo</option>
+                    <option value="GrupoA">Grupo A</option>
+                    <option value="GrupoB">Grupo B</option>
+                    <option value="GrupoC">Grupo C</option>
+                </select>
+                <button id="promedioGroup">ir</button>
+            </div>
+
+            <div class="ordenarCalific">
+                <select name="ordenarPor" id="ordenarPor">
+                    <option value="ordenar">Ordenar por</option>
+                    <option value="ascendente">Calificacion de menor a mayor</option>
+                    <option value="descendente">Calificacion de mayor a menor</option>
+                </select>
+                <button id="califorder">ir</button>
+            </div>
+
+                
+                
+        </div>-->
+        
+</body>
+</html>
